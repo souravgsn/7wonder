@@ -1,0 +1,106 @@
+body{
+    margin : 0px;
+    
+}
+
+#bodyheader{
+    height: 65vh;     
+    opacity: 0.9;
+    background-image: url("wp4759213.jpg");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.horizontal{
+    list-style: none;
+    padding-left: 0px;
+    
+
+}
+.horizontal li{
+    display: inline-block;
+    margin: 0px 10px 10px 0px;
+    
+}
+.horizontal li a{
+    color: white;
+    text-decoration: violet;
+    transition: color 0.5s, border-bottom 4s;
+    font-size: larger;
+}
+.horizontal li a:hover{
+    color: red;
+    border-bottom: 1px solid violet;
+}
+.textcenter{
+    text-align: center;
+}
+#topic{
+    color:rgb(4, 4, 92);
+    font-size :40px;
+    margin-top: 100px;
+}
+#intro{
+    position: relative;
+}
+#icons li a {
+    
+    padding: 20px;
+    border-radius: 50%;
+}
+#pic1{
+    margin: -17vh;
+    
+}
+#introduction{
+    margin-top: 150px;
+}
+
+
+#theory{
+    
+    background-color:lightsteelblue;
+    display: inline-block;
+}
+table, th, td {
+    border: 1px solid black;
+    background-color: lightpink;
+  }
+.imagesmall{
+    height:50vh;
+}
+#facts{
+    height : auto;
+    width: 100%;
+    border : 2px solid;
+    background-image: radial-gradient(red,rgb(158, 149, 132));
+    display: flex;
+    flex-direction: column;
+    
+}
+#video{
+    background-color: mediumaquamarine;
+    display: inline-block;
+    width: 99vw;
+}
+.factsdisplay{
+    border: 2px solid blue;
+    width: 70%;
+    height: 100px;
+}
+
+.factborder{
+    margin : 20px;
+    position: relative;
+    width : 45%;
+    border: 2px solid yellow;
+    background-color: lightgray;
+}
+#facts :nth-child(2n){
+    left : 50%;
+}
+#factheading{
+    border:2px solid black;
+    background-color: yellow    ;
+}
